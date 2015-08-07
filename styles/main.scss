@@ -19,3 +19,62 @@ body {
   background-color: $base-background-color;
   color: $base-font-color;
 }
+header {
+  background-color: green;
+}
+.name {
+  width: 40%;
+  height: 100px;
+  margin-top: 2%;
+  text-align: center;
+}
+hr {
+  margin-top: 10px;
+  width: 2px;
+}
+.cottage {
+  display: inline-block;
+}
+.line-left {
+  width: 20%;
+  height:2px;
+  background-color: black;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: inline-block;
+}
+.line-right {
+  width: 20%;
+  height:2px;
+  background-color: black;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: inline-block;
+}
+.curved {
+   font-family: 'Lobster Two', cursive;
+   font-size: 3em;
+ }
+.name {
+   display: inline-block;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+ }
+span {
+   font-family: $base-font-family;
+   font-size: 1em;
+   font-weight: 200;
+ }
+.entry-link {
+  text-decoration: none;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 150px;
+}
+ 
