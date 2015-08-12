@@ -19,64 +19,40 @@ body {
   background-color: $base-background-color;
   color: $base-font-color;
 }
-header {
-  background-color: green;
-}
-.name {
-  width: 40%;
-  height: 100px;
-  margin-top: 2%;
+
+.span-logo {
   text-align: center;
 }
-hr {
-  margin-top: 10px;
-  width: 2px;
-}
-.cottage {
+.image-container {
   display: inline-block;
-  width: 100%;
+  position: relative;
+  width: 70%;
+  margin-top: 15px;
+  margin-left: 15%;
+  margin-right: 10%;
+  border-radius: 15px;
 }
-.line-left {
-  width: 20%;
-  height:2px;
-  background-color: black;
-  margin-top: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
-  display: inline-block;
+
+.image-container::after {
+  content: "";
+  display: block;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 15%;
+  margin-right: 10%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 70%;
+  border-radius: 15px;
+  background-color: rgba(250, 250, 250, .5);
 }
-.line-right {
-  width: 20%;
-  height:2px;
-  background-color: black;
-  margin-top: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
-  display: inline-block;
+.button-container {
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
 }
-.curved {
-   font-family: 'Lobster Two', cursive;
-   font-size: 3em;
-   margin:0;
- }
-.name {
-   display: inline-block;
-   text-align: center;
-   margin: 0;
-   padding: 0;
- }
-span {
-   font-family: $base-font-family;
-   font-size: 1em;
-   font-weight: 200;
- }
-.entry-link {
-  text-decoration: none;
-  border-width: 5px;
-  border-style: solid;
-  border-color: black;
-  margin-left: 30%;
-  margin-right: 30%;
-  margin-top: 150px;
+.top-button-container {
+  margin-bottom: 15px;
 }
- 
