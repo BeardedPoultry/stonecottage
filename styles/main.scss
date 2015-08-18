@@ -18,8 +18,12 @@ body {
   font-family: $base-font-family;
   background-color: $base-background-color;
   color: $base-font-color;
+  margin: 0;
 }
-.bk-img {
+.bk-img,
+.bk-img-gnome,
+.bk-img-hearth,
+.bk-img-herb {
   width: 100%;
   height: auto;
   position: fixed;
@@ -37,7 +41,7 @@ body {
 .image-container {
   display: inline-block;
   position: relative;
-  width: 70%;
+  width: 60%;
   margin-top: 15px;
   margin-left: 15%;
   margin-right: 10%;
@@ -58,7 +62,7 @@ body {
   bottom: 0;
   width: 70%;
   border-radius: 15px;
-  background-color: rgba(250, 250, 250, .5);
+  background-color: rgba(250, 250, 250, .4);
   animation-duration: 3s;
 }
 
@@ -109,4 +113,12 @@ body {
   height: 45px;
   animation-delay: 4s;
   animation-duration: 3s;
+}
+.herbGardernText {
+  color: RGBA(188, 153, 231, 1);
+  text-align: center;
+  margin-top: 20px;
+  font-size: 4em;
+  margin: 0;
+  z-index: 1;
 }
