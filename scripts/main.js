@@ -12,7 +12,7 @@
   
   $(document).on('click', '.thestonecottage', function(){
     event.preventDefault();
-    Window.cottageRouter.navigate('/the-stone-cottage');
+    Window.cottageRouter.navigate('/the-stone-cottage', {trigger: true});
   });
   
   var cottageRouter = Backbone.Router.extend({
