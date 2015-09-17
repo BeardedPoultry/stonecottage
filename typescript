@@ -11,4 +11,41 @@ Script started on Fri Sep 11 12:02:09 2015
 [1m[7m%[27m[1m[0m                                                                                ]2;Gabriel@Gabriel-Joness-MBP]1;..scripts/views]7;file:///Users/Gabriel/Documents/projects/stonecottage/scripts/views[0m[27m[24m[J[01;31m➜ [27m[01;32m [36mviews [01;34mgit:([31mgj-develop[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=ttouch index.js[?1l>
 ]2;touch index.js]1;touch[1m[7m%[27m[1m[0m                                                                                ]2;Gabriel@Gabriel-Joness-MBP]1;..scripts/views]7;file:///Users/Gabriel/Documents/projects/stonecottage/scripts/views[0m[27m[24m[J[01;32m➜ [01;32m [36mviews [01;34mgit:([31mgj-develop[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=...[?1l>
 ]2;..]1;..[1m[7m%[27m[1m[0m                                                                                ]2;Gabriel@Gabriel-Joness-MBP]1;..ttage/scripts]7;file:///Users/Gabriel/Documents/projects/stonecottage/scripts[0m[27m[24m[J[01;32m➜ [01;32m [36mscripts [01;34mgit:([31mgj-develop[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=...[?1l>
-]2;..]1;..[1m[7m%[27m[1m[0m                                                                                ]2;Gabriel@Gabriel-Joness-MBP]1;../stonecottage]7;file:///Users/Gabriel/Documents/projects/stonecottage[0m[27m[24m[J[01;32m➜ [01;32m [36mstonecottage [01;34mgit:([31mgj-develop[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=
+]2;..]1;..[1m[7m%[27m[1m[0m                                                                                ]2;Gabriel@Gabriel-Joness-MBP]1;../stonecottage]7;file:///Users/Gabriel/Documents/projects/stonecottage[0m[27m[24m[J[01;32m➜ [01;32m [36mstonecottage [01;34mgit:([31mgj-develop[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=ggit add .[?1l>
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                ]2;Gabriel@Gabriel-Joness-MBP]1;../stonecottage]7;file:///Users/Gabriel/Documents/projects/stonecottage[0m[27m[24m[J[01;32m➜ [01;32m [36mstonecottage [01;34mgit:([31mgj-develop[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=ggit commit -m "fis xed router on site"[?1l>
+]2;git commit -m "fixed router on site"]1;git[gj-develop 3500ed8] fixed router on site
+ 8 files changed, 155 insertions(+), 51 deletions(-)
+ rewrite scripts/main.js (90%)
+ create mode 100644 scripts/router.js
+ create mode 100644 scripts/views/index.js
+ create mode 100644 typescript
+[1m[7m%[27m[1m[0m                                                                                ]2;Gabriel@Gabriel-Joness-MBP]1;../stonecottage]7;file:///Users/Gabriel/Documents/projects/stonecottage[0m[27m[24m[J[01;32m➜ [01;32m [36mstonecottage [01;34mgit:([31mgj-develop[34m)[00m[01;34m [00m[K[?1h=ggit push[?1l>
+]2;git push]1;gitwarning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Counting objects: 14, done.
+Delta compression using up to 8 threads.
+Compressing objects:   7% (1/13)   Compressing objects:  15% (2/13)   Compressing objects:  23% (3/13)   Compressing objects:  30% (4/13)   Compressing objects:  38% (5/13)   Compressing objects:  46% (6/13)   Compressing objects:  53% (7/13)   Compressing objects:  61% (8/13)   Compressing objects:  69% (9/13)   Compressing objects:  76% (10/13)   Compressing objects:  84% (11/13)   Compressing objects:  92% (12/13)   Compressing objects: 100% (13/13)   Compressing objects: 100% (13/13), done.
+Writing objects:   7% (1/14)   Writing objects:  14% (2/14)   Writing objects:  21% (3/14)   Writing objects:  28% (4/14)   Writing objects:  35% (5/14)   Writing objects:  42% (6/14)   Writing objects:  50% (7/14)   Writing objects:  57% (8/14)   Writing objects:  64% (9/14)   Writing objects:  71% (10/14)   Writing objects:  78% (11/14)   Writing objects:  85% (12/14)   Writing objects:  92% (13/14)   Writing objects: 100% (14/14)   Writing objects: 100% (14/14), 2.75 KiB | 0 bytes/s, done.
+Total 14 (delta 6), reused 0 (delta 0)
+To git@github.com:badview08/stonecottage.git
+   9793c2a..3500ed8  gj-develop -> gj-develop
+[1m[7m%[27m[1m[0m                                                                                ]2;Gabriel@Gabriel-Joness-MBP]1;../stonecottage]7;file:///Users/Gabriel/Documents/projects/stonecottage[0m[27m[24m[J[01;32m➜ [01;32m [36mstonecottage [01;34mgit:([31mgj-develop[34m)[00m[01;34m [00m[K[?1h=
